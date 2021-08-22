@@ -1,5 +1,5 @@
 const apiURL    = 'https://restcountries.eu/rest/v2/alpha/',
-countries       = ['dza','alb','ala','afg','isl','bra','usa','deu','ind'],
+countries       = ['AFG','ALA','ALB','DZA','ASM','AND','AGO','AIA','ATA','ATG','ARG','ARM','ABW','AUS','AUT','AZE','BHS','BHR','BGD','BRB','BLR','BEL','BLZ','BEN','BMU','BTN','BOL','BES','BIH','BWA','BVT','BRA','IOT','BRN','BGR','UZB','VUT','VEN','VNM','VGB','VIR','WLF','ESH','YEM','ZMB','ZWE'],
 
 items_Container = document.querySelector('.content__items'),
 selecFilter     = document.querySelector('select'),
