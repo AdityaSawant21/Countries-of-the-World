@@ -109,7 +109,7 @@ header h1 {
 .content__items {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,250px);
+    grid-template-columns: repeat(4,250px);
     justify-content: space-between;
 }
 
