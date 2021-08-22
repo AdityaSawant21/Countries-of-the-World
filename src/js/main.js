@@ -1,4 +1,4 @@
-const apiURL    = 'https://restcountries.eu/rest/v2/alpha/co/',
+const apiURL    = 'https://restcountries.eu/rest/v2/alpha/',
 countries       = ['dza', 'alb', 'ala', 'afg', 'isl', 'bra', 'usa', 'deu'],
 
 items_Container = document.querySelector('.content__items'),
@@ -226,4 +226,3 @@ selecFilter.addEventListener('change', () => filterRegion(selecFilter.value));
 
 createItem().then( deleteRepeatedSelect )
             .then( addListener );
-
