@@ -1,5 +1,5 @@
 const apiURL    = 'https://restcountries.eu/rest/v2/alpha/co',
-countries       = ['dza', 'alb', 'ala', 'afg', 'isl', 'bra', 'usa', 'deu'],
+countries       = ['arg', 'dza', 'alb', 'ala', 'afg', 'isl', 'bra', 'usa', 'deu'],
 
 items_Container = document.querySelector('.content__items'),
 selecFilter     = document.querySelector('select'),
